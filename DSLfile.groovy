@@ -1,7 +1,7 @@
 job('ejemplo2-job-DSL') {
 	description('segundo job dls de ejemplo para el curso de Jenkins')
 	scm {
-    	git('https://https://github.com/Khanne7/CursoJenkins.git', 'main') { node ->
+    	git('https://github.com/Khanne7/CursoJenkins.git', 'main') { node ->
       	node / gitConfigName('khanne')
       	node / gitConfigEmail('anaysa.25@gmail.com')
     	}
